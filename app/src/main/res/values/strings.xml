@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">calendar</string>
+    <string name="app_name">Calendar</string>
+    <string name="hello"> Привет!</string>
+    <string name="calendar">Это твой календарь-\nпланер, чтобы\nникуда не опаздывать\nи ничего не забывать)</string>
+    <string name="month">Август,</string>
+    <string name="number_month">19</string>
+    <string name="year">2024,</string>
+    <string name="name_todo">Наименование дела</string>
+    <string name="no_todo">Ничего не запланировано</string>
+    <string name="start_time">6:00</string>
+    <string name="end_time">7:00</string>
+    <string name="date">19.08.2024</string>
+    <string name="description_todo">Описание дела</string>
+    <string name="dash">-</string>
 </resources>

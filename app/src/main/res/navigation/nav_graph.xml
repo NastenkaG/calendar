@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.calendar.ui.main.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_toDoListFragment"
+            app:destination="@id/toDoListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/descriptionToDoFragment"
+        android:name="com.example.calendar.ui.description.DescriptionToDoFragment"
+        android:label="fragment_description_todo"
+        tools:layout="@layout/fragment_description_todo" />
+    <fragment
+        android:id="@+id/toDoListFragment"
+        android:name="com.example.calendar.ui.list.ToDoListFragment"
+        android:label="fragment_todo_list"
+        tools:layout="@layout/fragment_todo_list" >
+        <action
+            android:id="@+id/action_toDoListFragment_to_descriptionToDoFragment"
+            app:destination="@id/descriptionToDoFragment" />
+    </fragment>
+</navigation>
